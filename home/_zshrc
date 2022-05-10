@@ -1,0 +1,15 @@
+# PROMPT="%F{blue}%~ %F{red}%# %B•%F{yellow}•%F{green}• %f%b"
+PROMPT=$'%F{87}☂ %F{51}%n%F{123}@%F{6}%m\n%F{49}↳ %f'
+
+autoload -U compinit promptinit 
+compinit
+promptinit
+
+alias vi=nvim
+alias vim=nvim
+alias fm=vifm
+alias lg=lazygit
+alias ls="ls --color=auto"
+alias ll="ls -sh"
+
+source $HOME"/.zsh/sh/zsh-syntax-highlighting.zsh"

@@ -1,0 +1,5 @@
+[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
+
+$HOME/.config/i3/display_setup.sh &
+
+exec i3
