@@ -1,5 +1,5 @@
 # PROMPT="%F{blue}%~ %F{red}%# %B•%F{yellow}•%F{green}• %f%b"
-PROMPT=$'%F{87}☂ %F{51}%n%F{123}@%F{6}%m\n%F{49}↳ %f'
+PROMPT=$'%F{87}☂ %F{51}%n%F{123}@%F{6}%m %f%~\n%F{49}↳ %f'
 
 autoload -U compinit promptinit 
 compinit
