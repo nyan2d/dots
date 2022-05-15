@@ -12,17 +12,17 @@ font:
     family: JetBrainsMono Nerd Font
     style: Bolt Italic
 
-  size: 11.0
+  size: 14.0
   use_thin_strokes: true
 
   offset:
     y: 2
 
 window:
-  opacity: 1.0
+  opacity: 0.8
   padding:
-    x: 0
-    y: 0
+    x: 12
+    y: 10
   dynamic_padding: true
 
 mouse:
@@ -34,7 +34,7 @@ selection:
 colors:
   # Default colors
   primary:
-    background: '0x202434'
+    background: '0x000000'
     foreground: '0xFFFFFF'
 
   # Normal colors
