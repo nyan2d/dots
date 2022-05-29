@@ -13,7 +13,7 @@ return require('packer').startup(function(use)
     use 'kyazdani42/nvim-web-devicons'
 
     -- color scheme
-    use 'kdheepak/monochrome.nvim'
+    use 'ellisonleao/gruvbox.nvim'
 
     -- lualine
     use 'nvim-lualine/lualine.nvim'

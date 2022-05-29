@@ -3,7 +3,8 @@ local opt = vim.opt
 
 -- Color scheme
 opt.termguicolors = true
-cmd'colorscheme monochrome'
+opt.background = "light"
+cmd'colorscheme gruvbox'
 
 -- Outers
 require('plugins/treesitter')
