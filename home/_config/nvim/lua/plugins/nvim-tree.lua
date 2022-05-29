@@ -5,7 +5,4 @@ require('nvim-tree').setup{
     git = {
         enable = false,
     },
-    open_file = {
-        resize_window = true, -- not working
-    },
 }
