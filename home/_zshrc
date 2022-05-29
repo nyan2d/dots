@@ -7,7 +7,7 @@ promptinit
 
 alias vi=nvim
 alias vim=nvim
-alias fm=vifm
+alias rg=ranger
 alias lg=lazygit
 alias ls="ls --color=auto"
 alias ll="ls -sh"
