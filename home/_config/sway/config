@@ -161,4 +161,8 @@ input 2:14:ETPS/2_Elantech_Touchpad {
     natural_scroll  disabled
 }
 
+output HDMI-A-1 {
+    scale 1.2
+}
+
 include /etc/sway/config.d/*
