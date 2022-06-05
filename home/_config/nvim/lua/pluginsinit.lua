@@ -5,7 +5,12 @@ local opt = vim.opt
 opt.termguicolors = true
 vim.g.substrata_variant = "brighter"
 cmd'colorscheme substrata'
+
+-- transparent bg
 cmd'hi Normal guibg=NONE ctermbg=NONE'
+cmd'hi NormalNC guibg=NONE ctermbg=NONE'
+cmd'hi SignColumn guibg=NONE ctermbg=NONE'
+cmd'hi NvimTreeNormal guibg=NONE ctermbg=NONE'
 
 -- Outers
 require('plugins/treesitter')
