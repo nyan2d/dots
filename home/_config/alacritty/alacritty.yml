@@ -1,3 +1,6 @@
+env:
+  TERM: xterm-256color
+
 font:
   normal:
     family: JetBrainsMono Nerd Font
@@ -19,11 +22,14 @@ font:
     y: 2
 
 window:
-  opacity: 1.0
+  opacity: 0.75
   padding:
-    x: 0
-    y: 0
+    x: 10
+    y: 8
   dynamic_padding: true
+
+key_bindings:
+  - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
 
 mouse:
   hide_when_typing: true
@@ -32,29 +38,24 @@ selection:
   save_to_clipboard: true
 
 colors:
-  # Default colors
   primary:
     background: '0x000000'
-    foreground: '0xFFFFFF'
-
-  # Normal colors
+    foreground: '0xb6b6b6'
   normal:
-    black:   '0x10100E'
-    red:     '0xC40233'
-    green:   '0x009F6B'
-    yellow:  '0xFFD700'
-    blue:    '0x0087BD'
-    magenta: '0x9A4EAE'
-    cyan:    '0x20B2AA'
-    white:   '0xC6C6C4'
-
-  # Bright colors
+    black:   '0x000000'
+    red:     '0x990000'
+    green:   '0x00a600'
+    yellow:  '0xb3b300'
+    blue:    '0x0052cc'
+    magenta: '0xb200b2'
+    cyan:    '0x00a6b2'
+    white:   '0xbfbfbf'
   bright:
-    black:   '0x696969'
-    red:     '0xFF2400'
-    green:   '0x03C03C'
-    yellow:  '0xFDFF00'
-    blue:    '0x007FFF'
-    magenta: '0xFF1493'
-    cyan:    '0x00CCCC'
-    white:   '0xFFFAFA'
+    black:   '0x666666'
+    red:     '0xe50000'
+    green:   '0x00d900'
+    yellow:  '0xe5e500'
+    blue:    '0x0000ff'
+    magenta: '0xe500e5'
+    cyan:    '0x00e5e5'
+    white:   '0xe5e5e5'

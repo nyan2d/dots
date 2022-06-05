@@ -1,5 +1,5 @@
 set $mod Mod4
-set $terminal alacritty
+set $terminal st
 
 # border
 for_window [class=".*"] border pixel 0
@@ -23,7 +23,6 @@ floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec $terminal
-bindsym $mod+Shift+Return exec $HOME/.config/i3/term_xcwd.sh
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -137,7 +136,7 @@ bindsym $mod+r mode "resize"
 exec_always --no-startup-id "setxkbmap -model pc104 -layout us,ru -option grp:alt_shift_toggle"
 
 # picom
-exec_always --no-startup-id "picom --config ~/.config/picom/picom.conf"
+exec_always --no-startup-id "picom --experimental-backends --config ~/.config/picom/picom.conf"
 
 # background
 exec_always --no-startup-id feh --no-fehbg --bg-fill $HOME/.config/feh/walp.jpg &

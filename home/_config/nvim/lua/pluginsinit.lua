@@ -3,8 +3,9 @@ local opt = vim.opt
 
 -- Color scheme
 opt.termguicolors = true
-opt.background = "light"
-cmd'colorscheme gruvbox'
+vim.g.substrata_variant = "brighter"
+cmd'colorscheme substrata'
+cmd'hi Normal guibg=NONE ctermbg=NONE'
 
 -- Outers
 require('plugins/treesitter')

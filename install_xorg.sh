@@ -19,9 +19,9 @@ rm -rf ~/.Xresources
 ln -sf $DOTFILES_DIR/home/_Xresources ~/.Xresources
 
 
-# alacritty
-rm -rf ~/.config/alacritty
-ln -sf $DOTFILES_DIR/home/_config/alacritty ~/.config/alacritty
+# fonts config
+rm -rf ~/.config/fontconfig
+ln -sf $DOTFILES_DIR/home/_config/fontconfig ~/.config/fontconfig
 
 
 # i3
