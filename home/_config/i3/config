@@ -145,7 +145,7 @@ exec_always --no-startup-id feh --no-fehbg --bg-fill $HOME/.config/feh/walp.jpg 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Screenshoter
-bindsym $mod+Shift+s exec "maim -s -u | xclip -selection clipboard -t image/png -i > /dev/null"
+bindsym $mod+Shift+s exec "maim -s -u -o | xclip -selection clipboard -t image/png -i > /dev/null"
 
 # Lock key
 bindsym $mod+Shift+z exec "~/.config/i3/lock.sh"
