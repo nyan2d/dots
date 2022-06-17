@@ -1,5 +1,5 @@
 set $mod Mod4
-set $terminal st
+set $terminal alacritty
 
 # border
 for_window [class=".*"] border pixel 0

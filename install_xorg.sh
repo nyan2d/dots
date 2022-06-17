@@ -48,5 +48,9 @@ ln -sf $DOTFILES_DIR/home/_config/gitui ~/.config/gitui
 rm -rf ~/.config/nvim
 ln -sf $DOTFILES_DIR/home/_config/nvim ~/.config/nvim
 
+# alacritty
+rm -rf ~/.config/alacritty
+ln -sf $DOTFILES_DIR/home/_config/alacritty ~/.config/alacritty
+
 
 echo 'Installation complete'
