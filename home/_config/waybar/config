@@ -76,7 +76,7 @@
         "format": "{} ",
     },
     "custom/hostname": {
-        "format": " {}",
+        "format": "    {}   ",
         "exec": "echo \"$(uname -n)\"",
         "interval": 256,
     },
