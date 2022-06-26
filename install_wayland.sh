@@ -37,9 +37,13 @@ rm -rf ~/.config/wofi
 ln -sf $DOTFILES_DIR/home/_config/wofi ~/.config/wofi
 
 
-# foot
-rm -rf ~/.config/foot
-ln -sf $DOTFILES_DIR/home/_config/foot ~/.config/foot
+# alacritty
+rm -rf ~/.config/alacritty
+ln -sf $DOTFILES_DIR/home/_config/alacritty ~/.config/alacritty
+
+# fonts config
+rm -rf ~/.config/fontconfig
+ln -sf $DOTFILES_DIR/home/_config/fontconfig ~/.config/fontconfig
 
 
 echo 'Installation complete'

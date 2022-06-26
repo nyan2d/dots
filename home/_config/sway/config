@@ -6,9 +6,7 @@ set $down j
 set $up k
 set $right l
 
-set $term footclient
-
-set $cwdspawner $HOME/.config/sway/cwdspawner.sh
+set $term alacritty
 
 set $menu exec wofi --show run
 
@@ -27,9 +25,6 @@ gaps outer 4
 
 # Start a terminal
 bindsym --to-code $mod+Return exec $term
-
-# Start web browser
-bindsym --to-code $mod+Shift+Return exec $cwdspawner footclient
 
 # Kill focused window
 bindsym --to-code $mod+Shift+q kill
@@ -119,9 +114,6 @@ bindsym --to-code $mod+Shift+S exec grim -g "$(slurp)" -t png - | wl-copy -t ima
 bindsym --to-code $mod+Shift+Z exec $HOME/.config/sway/lock.sh
 exec_always $HOME/.config/sway/autostart.sh
 
-# foot daemon
-exec_always foot -s
-
 # Media keys
 bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
@@ -150,6 +142,12 @@ bar {
 input * {
     xkb_layout us,ru
     xkb_options grp:alt_shift_toggle
+}
+
+# Disable mouse accel
+input type:pointer {
+    accel_profile flat
+    pointer_accel 0
 }
 
 input 1:1:AT_Translated_Set_2_keyboard {
