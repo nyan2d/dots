@@ -3,14 +3,10 @@ local opt = vim.opt
 
 -- Color scheme
 opt.termguicolors = true
-vim.g.substrata_variant = "brighter"
-cmd'colorscheme substrata'
-
--- transparent bg
-cmd'hi Normal guibg=NONE ctermbg=NONE'
-cmd'hi NormalNC guibg=NONE ctermbg=NONE'
-cmd'hi SignColumn guibg=NONE ctermbg=NONE'
-cmd'hi NvimTreeNormal guibg=NONE ctermbg=NONE'
+vim.o.background = "dark"
+vim.g.vscode_transparent = 1
+vim.g.vscode_disable_nvimtree_bg = true
+cmd'colorscheme vscode'
 
 -- Outers
 require('plugins/treesitter')
