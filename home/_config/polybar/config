@@ -56,6 +56,24 @@ format-volume-prefix = "volume: "
 format-volume-prefix-foreground = ${colors.blueback}
 format-padding = 1
 
+[module/charge]
+type = internal/battery
+battery = BAT0
+adapter = ACAD
+format-charging-prefix = "battery: "
+format-discharging-prefix = "battery: "
+format-charging-prefix-foreground = ${colors.blueback}
+format-discharging-prefix-foreground = ${colors.blueback}
+format-charging-padding = 1
+format-discharging-padding = 1
+
+[module/backlight]
+type = internal/backlight
+card = intel_backlight
+enable-scroll = true
+format-prefix = "backlight: "
+format-prefix-foreground = ${colors.blueback}
+
 [module/ram]
 type = internal/memory
 interval = 3
