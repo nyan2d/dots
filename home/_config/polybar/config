@@ -9,6 +9,16 @@ modules-right = layout volume charge backlight ram cpu lan date
 tray-position = right
 tray-padding = 1
 
+[bar/second]
+font-0 = JetBrainsMono Nerd Font:pixelsize=14;3:antialias=true:hinting=true
+monitor = DVI-D-1
+width = 100%
+height = 26
+background = BF000000
+fixed-center = true
+modules-left = hostname i3
+modules-right = date
+
 [colors]
 blueback = #bbadff
 
