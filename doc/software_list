@@ -1,0 +1,85 @@
+Linux Distro:
+- Arch Linux
+
+Shell:
+- zsh
+
+Editor:
+- neovim
+
+Sound server
+- pipewire
+- pipewire-pulse
+
+Xorg:
+- xorg-server
+- xorg-xinit
+- xorg-xrandr
+
+Fonts:
+- ttf-dejavu
+- ttf-liberation
+- noto-fonts
+- ttf-droid
+- JBMono [nerd version]
+
+Terminal emulator
+- alacritty
+
+WM:
+- i3-gaps
+
+Panel:
+- polybar[yay]
+
+Program launcher:
+- rofi
+
+Wallpaper engine
+- feh
+
+Screen locker
+- i3lock-color-git[yay]
+
+Web Browser:
+- google-chrome[yay]
+
+Screenshot tool:
+- maim
+- xclip
+
+Git GUI client:
+- lazygit
+
+Dev tools:
+- go
+- python
+- python-pip
+- nodejs
+- npm
+
+ETC:
+- sudo
+- git
+- base-devel
+- yay [aur.archlinux.org/yay.git]
+- p7zip
+- ffmpeg
+- openvpn
+
+ETC-gui:
+- telegram-desktop
+- filezilla
+- obs
+
+Programming Related Stuff
+- gopls
+  - go get golang.org/x/tools/gopls@latest
+- vscode lang servers
+  - npm install i -g vscode-langservers-extracted
+- typescript lang server
+  - npm install -g typescript-language-server
+- typescript
+  - nmp install -g typescript
+- python lang server
+  - pip install 'python-lsp-server[all]'

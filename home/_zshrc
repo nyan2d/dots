@@ -1,0 +1,14 @@
+PROMPT=$'%F{87}☂ %F{51}%n%F{123}@%F{6}%m %f%~\n%F{49}↳ %f'
+
+autoload -U compinit promptinit 
+compinit
+promptinit
+
+alias vi=nvim
+alias vim=nvim
+alias rg=ranger
+alias lg=lazygit
+alias ls="ls --color=auto"
+alias ll="ls -sh"
+
+source $HOME"/.zsh/sh/zsh-syntax-highlighting.zsh"

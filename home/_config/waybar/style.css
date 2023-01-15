@@ -1,0 +1,35 @@
+* {
+    font-size: 16px;
+    font-family: 'JetBrains Mono Nerd Font';
+    border: none;
+    border-radius: 0;
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+#language, #idle_inhibitor, #pulseaudio, #network, #backlight, #battery, #custom-weather, #clock, #tray,
+    #custom-hostname {
+    padding: 0 10px;
+    margin: 0 4px;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: gray;
+}
+
+#workspaces button.focused {
+    background: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+
+#language {
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    min-width: 40px;
+}
