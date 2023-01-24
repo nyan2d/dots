@@ -41,4 +41,9 @@ rm -rf ~/.config/fontconfig
 ln -sf $DOTFILES_DIR/home/_config/fontconfig ~/.config/fontconfig
 
 
+# tmux
+rm -rf ~/.config/tmux
+ln -sf $DOTFILES_DIR/home/_config/tmux ~/.config/tmux
+
+
 echo 'Installation complete'

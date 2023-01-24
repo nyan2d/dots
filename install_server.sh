@@ -17,4 +17,9 @@ rm -rf ~/.config/gitui
 ln -sf $DOTFILES_DIR/home/_config/gitui ~/.config/gitui
 
 
+# tmux
+rm -rf ~/.config/tmux
+ln -sf $DOTFILES_DIR/home/_config/tmux ~/.config/tmux
+
+
 echo 'Installation complete'
