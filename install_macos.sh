@@ -16,11 +16,11 @@ cp ./home/_zshenv ~/.zshenv
 
 
 # tmux
-cp ./home/_config/tmux ~/.config/tmux
+cp -r ./home/_config/tmux ~/.config/tmux
 
 
 # lazygit
-cp ./home/_config/lazygit ~/.config/lazygit
+cp -r ./home/_config/lazygit ~/.config/lazygit
 
 
 echo 'Installation complete'
