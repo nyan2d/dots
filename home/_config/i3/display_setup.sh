@@ -1,7 +1,7 @@
 #!/bin/sh
 
 function whitebox_init() {
-    xrandr --output HDMI-1 --primary --right-of DVI-D-1
+    xrandr --output HDMI-0 --primary --right-of DVI-D-0
 }
 
 function bluebook_init() {
