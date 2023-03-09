@@ -134,8 +134,8 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Keyboard layout
-exec_always --no-startup-id "setxkbmap -model pc104 -layout us,ru -option grp:alt_shift_toggle"
+# keyboard layout
+exec_always --no-startup-id "~/.config/i3/kb_layout.sh"
 
 # picom
 exec_always --no-startup-id "picom --config ~/.config/picom/picom.conf"
@@ -149,5 +149,5 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 # Screenshoter
 bindsym $mod+Shift+s exec "maim -s -u -o | xclip -selection clipboard -t image/png -i > /dev/null"
 
-# Lock key
+# screen lock
 bindsym $mod+Shift+z exec "~/.config/i3/lock.sh"

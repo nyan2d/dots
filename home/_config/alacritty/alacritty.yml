@@ -14,18 +14,15 @@ font:
   bolt_italic:
     family: JetBrainsMono Nerd Font
     style: Bolt Italic
-
-  size: 14.0
-  AppleFontSmoothing: true
-
+  size: 16.0
   offset:
     y: 2
 
 window:
   opacity: 0.80
   padding:
-    x: 10
-    y: 8
+    x: 6
+    y: 0
   dynamic_padding: true
 
 key_bindings:
