@@ -5,7 +5,7 @@ function whitebox_init() {
 }
 
 function imslow_init() {
-    xrandr --output HDMI-5 --primary --right-of HDMI-4 --rotate left
+    xrandr --output HDMI-5 --primary --right-of HDMI-4
 }
 
 case $HOSTNAME in
