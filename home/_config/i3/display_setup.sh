@@ -1,7 +1,7 @@
 #!/bin/sh
 
 function whitebox_init() {
-    xrandr --output HDMI-0 --primary --right-of DVI-D-0
+    xrandr --output HDMI-1 --primary --right-of DP-1
 }
 
 function imslow_init() {
