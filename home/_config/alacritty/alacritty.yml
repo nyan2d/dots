@@ -14,7 +14,7 @@ font:
   bolt_italic:
     family: JetBrainsMono Nerd Font
     style: Bolt Italic
-  size: 16.0
+  size: 14.0
   offset:
     y: 2
 

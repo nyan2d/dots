@@ -4,15 +4,15 @@ function whitebox_init() {
     xrandr --output HDMI-1 --primary --right-of DP-1
 }
 
-function imslow_init() {
-    xrandr --output HDMI-5 --primary --right-of HDMI-4
+function blackbox_init() {
+    xrandr --output HDMI-1 --primary --left-of DP-1
 }
 
 case $HOSTNAME in
     whitebox)
         whitebox_init;;
-    imslow)
-        imslow_init;;
+    blackbox)
+        blackbox_init;;
     *) echo "hostname not found";;
 esac
 

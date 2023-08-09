@@ -8,9 +8,9 @@ case $HOSTNAME in
         export PRIMARY_MONITOR=HDMI-1
         export SECONDARY_MONITOR=DP-1
         ;;
-    imslow)
-        export PRIMARY_MONITOR=HDMI-4
-        export SECONDARY_MONITOR=HDMI-5
+    blackbox)
+        export PRIMARY_MONITOR=HDMI-1
+        export SECONDARY_MONITOR=DP-1
         ;;
     *) echo "default";;
 esac
