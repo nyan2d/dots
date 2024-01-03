@@ -1,8 +1,7 @@
 #!/bin/sh
 
 function whitebox_init() {
-    xrandr --output HDMI-1 --primary --right-of DP-4
-    xrandr --output DP-4 --rotate left
+    xrandr --output HDMI-0 --primary --right-of DP-4
 }
 
 function blackbox_init() {

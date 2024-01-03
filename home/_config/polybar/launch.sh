@@ -5,7 +5,7 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 case $HOSTNAME in
     whitebox)
-        export PRIMARY_MONITOR=HDMI-1
+        export PRIMARY_MONITOR=HDMI-0
         export SECONDARY_MONITOR=DP-4
         ;;
     blackbox)
