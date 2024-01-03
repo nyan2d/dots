@@ -6,8 +6,7 @@ cursor = "#00ffff"
 text = "#000000"
 
 [colors.primary]
-background = "#000000"
-#background = "#292A2B"
+background = "#1b1e2b"
 foreground = "#AEB7B6"
     
 [colors.normal]
@@ -29,6 +28,10 @@ blue =    "#64a8d8"
 magenta = "#bc82d3"
 cyan =    "#65cedc"
 white =   "#ebf6f5"
+
+[window.padding]
+x = 6
+y = 6
 
 [font]
 size = 14.0
