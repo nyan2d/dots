@@ -1,7 +1,7 @@
 #!/bin/sh
 
 function whitebox_kb_setup() {
-    setxkbmap -model pc104 -layout us,ru -option grp:alt_shift_toggle
+    setxkbmap -model pc104 -layout us,ru -option grp:alt_shift_toggle,grp:win_space_toggle
 }
 
 function blackbox_kb_setup() {
